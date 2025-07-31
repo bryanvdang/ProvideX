@@ -34,3 +34,13 @@ Commands:
 
 How to create a program that prints string text and a numeric value
 <img width="863" height="530" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
+
+Line Labels:
+
+GOSUB:
+- Good to use. Try to use instead of using lines. Using lines doesn't tell you what the code does but at least with line labels you can kind of get an idea of what is happening
+- Maintaining the flow of code, "let's do something outside of the current code block", and keeps code clean to section it off.
+- Gives you an easy way to end a function early. If you look at line 130, it reads but if there is an error, skip whatever is left (skip 140) and go straight to the return. This logic is usually used for validation. If you get data validate it, if it fails then hit the return.
+- <img width="252" height="106" alt="image" src="https://github.com/user-attachments/assets/10126ce4-ab3a-4ab7-836e-bd93233bff28" />
+
+
