@@ -25,12 +25,23 @@ Variables:
 - No need to explicitly declare variables before using them
 <img width="456" height="202" alt="image" src="https://github.com/user-attachments/assets/13160605-5732-4484-b114-23b2e9e5c9ce" />
 
+There are no Booleans but you can simulate booleans variables. 
+- Integers: 0 for false or 1 for true
+- Strings: "Y"/"N" or "T"/"F"
+
 Commands:
 - '/' list everything same as typing 'list'
 - Display a line $ls + line number
 - Renumber the lines $renumber
 - Save $save "file path"
 - Display directories $?pfx
+
+LS Command:
+- Command $ls "line number", b
+- Will take you to the line number in the code
+- Command to take you to a line label until it reaches a return. 'b' for block. List out the block
+$ ls "line label name", b
+
 
 How to create a program that prints string text and a numeric value
 <img width="863" height="530" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
