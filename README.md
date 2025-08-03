@@ -46,7 +46,7 @@ $ ls "line label name", b
 How to create a program that prints string text and a numeric value
 <img width="663" height="330" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
 ---
-Line Labels:
+Line Labels and Subroutines:
 
 GOSUB:
 - Good to use. Try to use instead of using lines. Using lines doesn't tell you what the code does but at least with line labels you can kind of get an idea of what is happening
@@ -79,6 +79,15 @@ You can assign variables in the LOCAL variables when its initialized.
 - LOCAL name$
 This will keep the variable of name$ to its current state, but once the block has finished, it will reset the value to its original state.
 ---
+PERFORMS are exactly the same as a subsroutine aka gosub but Performs are in a different program
+<img width="180" height="17" alt="image" src="https://github.com/user-attachments/assets/bc4be501-7d98-4379-a5b2-59c44b89a447" />
+- Similar to a GOSUB but in a different program
+- The quotes need the program name followed by the gosub. It has to be a gosub and not a line number
+- Perform will stop at a return but if there's a GOTO, the GOTO will bypass the return until its done running the code in the GOTO. Then it will return to the stack it was at before.
+
+---
+
+
 
 
 
