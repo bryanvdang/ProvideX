@@ -2,7 +2,7 @@
 
 ProvideX also known as pvxPlus and PVX
 30-40 yrs old
-
+---
 Meaning of the colors:
 
 - Bright green, are sub routines, Line Labels
@@ -16,7 +16,7 @@ Meaning of the colors:
 - White are directives/functions
 
 - ! , dark teal is the comment
-
+---
 Variables:
 - String variables end in $
 - An empty string will be set to ""
@@ -28,7 +28,7 @@ Variables:
 There are no Booleans but you can simulate booleans variables. 
 - Integers: 0 for false or 1 for true
 - Strings: "Y"/"N" or "T"/"F"
-
+---
 Commands:
 - '/' list everything same as typing 'list'
 - Display a line $ls + line number
@@ -44,8 +44,8 @@ $ ls "line label name", b
 
 
 How to create a program that prints string text and a numeric value
-<img width="863" height="530" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
-
+<img width="663" height="330" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
+---
 Line Labels:
 
 GOSUB:
@@ -66,14 +66,19 @@ This code is a sub routine, where we localize the variables,
 
 If you a subroutine to return something, don't localize the variable.
 
+---
+LOCAL Statements:
 If you don't use LOCAL, you are expecting it to be set.
 
 When going through files, its better to use for loops and while loops and we commonly use select loops because select loops tie directly into files. A select loop would loop through this file. 
 
-- You can assign variables in the LOCAL variables when its initialized.
-- <img width="364" height="55" alt="image" src="https://github.com/user-attachments/assets/f1bda6a6-d52b-4c2c-9702-54356841d8d7" />
+You can assign variables in the LOCAL variables when its initialized.
+- <img width="243" height="37" alt="image" src="https://github.com/user-attachments/assets/118bdaeb-554a-44f0-bac1-984e34a3dc4a" />
 
-
+- LOCAL statements can protect values from being changed while in a GOSUB or PERFORM
+- LOCAL name$
+This will keep the variable of name$ to its current state, but once the block has finished, it will reset the value to its original state.
+---
 
 
 
