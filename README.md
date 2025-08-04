@@ -144,6 +144,14 @@ In this example is, the string we give it is "W". It will iterate over the strin
 - Int
     - Not used too much but it takes the integer of a number<img width="583" height="257" alt="image" src="https://github.com/user-attachments/assets/7f4b50ff-1305-4ad5-93a3-dcaec5f67faa" />
 
+---
+Arithmetic:
+- <>, = 	not equals to	Not equal to, equal to
+- +,-,*,/ 	Add, Minus, Multiply, Divide
+- ++,--		Increment, Decrement
+- <, >		Less than, greater than
+
+---
 
 
 
