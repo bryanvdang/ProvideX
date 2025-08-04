@@ -129,6 +129,22 @@ In this example is, the string we give it is "W". It will iterate over the strin
     - A value with 6 spaces is also null
     - Use to check if something is actually being set
 
+- Num
+    - Taking the number of something
+    - <img width="353" height="241" alt="image" src="https://github.com/user-attachments/assets/9c1cf1d5-3584-4c73-9a9e-feed4cc974c8" />
+- Pos
+    -What's the position of this value compared to this other value and will return a numeric value
+- Sub
+    - Substitute text. Replace certain characters within this string. Change the 'e's to 'o's. Something of that nature
+- Ucs
+    - Upper case. Also a lcs for lower case
+- Str
+    - Will see a lot. Practically take the string value of this number
+	- Has lots of formatting masks. Use for currency or decimal
+- Int
+    - Not used too much but it takes the integer of a number<img width="583" height="257" alt="image" src="https://github.com/user-attachments/assets/7f4b50ff-1305-4ad5-93a3-dcaec5f67faa" />
+
+
 
 
 
