@@ -104,6 +104,34 @@ Be sure to put an 'END' at the end of the GOSUB(s)
 Use Line labels when using GOSUBs so you don't lose your line number and its cleaner.
 <img width="746" height="419" alt="image" src="https://github.com/user-attachments/assets/ae54d077-ae44-4f16-80c0-dbd0b9e2c01e" />
 
+---
+Functions:
+- Cvs (similar to stp, stripping spaces, manipulating the contents of the spacing the string you pass in). CVS is more of a binary function. You send it parameter 1, which is strip deleting, parameter 2 is strip the trailing, parameter 3 is strip deleting.
+    - Lets you utilize control characters, so if a third party has junk on a string you don't want, you can convert it to spaces.
+- Stp (stp is the basic version, you're stripping the front, the back, you can even strip certain characters out of the string.
+    -<img width="247" height="343" alt="image" src="https://github.com/user-attachments/assets/6cc0186a-4ac1-4889-bc6f-3fcaa5f21d4b" />
+- Pad
+    - Padding, checking to see if a value is a certain length
+- Tbl
+    - Table statement, similar to a ternary. In a table function, you can have multiple results. The first parameter in your table statement, is the numeric value of what you want to happen.
+In this example is, the string we give it is "W". It will iterate over the string "DWM". First case, if it can't find anything it will return "???", if the string was D it would return Daily, W Weekly, or M monthly. In our example we have W so it returns weekly
+    - <img width="245" height="47" alt="image" src="https://github.com/user-attachments/assets/857c7741-b969-4dfa-8810-09c877d438b7" />
+    - In this example should print "one" since its in the Oneth position, if x was 4, it would error stating it doesn't exist within the range (#41)
+    - <img width="374" height="128" alt="image" src="https://github.com/user-attachments/assets/2c70b12e-70d4-46b2-9c59-9d793ea16ff9" />
+    - Char replacement must have matching length
+        - <img width="483" height="153" alt="image" src="https://github.com/user-attachments/assets/ea264892-951d-4f30-9ce3-1e1ad985904a" />
+- Cse
+    - Case statement within a function instead of a switch case
+- Not
+    - Will take the not of the value
+- Nul
+    - Tell you if it’s a null or not (if its empty)
+    - A value with 6 spaces is also null
+    - Use to check if something is actually being set
+
+
+
+
 
 
 
