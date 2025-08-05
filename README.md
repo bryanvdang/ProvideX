@@ -167,6 +167,7 @@ GOTO:
 - frowned upon, just jumps around code (Bad practice)
 
 <img width="329" height="92" alt="image" src="https://github.com/user-attachments/assets/b05dd4d9-3728-4e10-b3c8-713aca161aa1" />
+
 - This code is a sub routine, where we localize the variables,
 - We set the file
 - We're going to open the file we just looked at
