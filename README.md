@@ -152,6 +152,33 @@ Arithmetic:
 - <, >		Less than, greater than
 
 ---
+Directive and Functions
+- The BEGIN directive is a true starting point, don't use on big projects. Only on side programs
+- Directive help containerize codes and prevent variables from bleeding through
+
+Line Labels:
+GOSUB:
+- Good to use. Try to use instead of using lines. Using lines doesn't tell you what the code does but at least with line labels you can kind of get an idea of what is happening
+- Maintaining the flow of code, "let's do something outside of the current code block", and keeps code clean to section it off.
+- Gives you an easy way to end a function early. If you look at line 130, it reads but if there is an error, skip whatever is left (skip 140) and go straight to the return. This logic is usually used for validation. If you get data validate it, if it fails then hit the return.
+	- <img width="168" height="71" alt="image" src="https://github.com/user-attachments/assets/37c44ae5-a8eb-4f06-a214-a97c6bc2c6c6" />
+
+GOTO:
+- frowned upon, just jumps around code (Bad practice)
+
+<img width="329" height="92" alt="image" src="https://github.com/user-attachments/assets/b05dd4d9-3728-4e10-b3c8-713aca161aa1" />
+- This code is a sub routine, where we localize the variables,
+- We set the file
+- We're going to open the file we just looked at
+- We're going to read from it
+- Close it, then print something out.
+- Nothing should be bleeding out
+
+*If you a subroutine to return something, don't localize the variable.
+
+ 
+
+
 
 
 
