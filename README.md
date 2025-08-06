@@ -177,7 +177,23 @@ GOTO:
 
 *If you a subroutine to return something, don't localize the variable.
 
- 
+ ---
+LOCAL Statements:
+If you don't use LOCAL, you are expecting it to be set.
+
+When going through files, its better to use for loops and while loops and we commonly use select loops because select loops tie directly into files. A select loop would loop through this file. 
+
+You can assign variables in the LOCAL variables when its initialized.
+<img width="243" height="37" alt="image" src="https://github.com/user-attachments/assets/59ff57f4-073d-4019-b70c-fb854748169c" />
+
+- LOCAL statements can protect values from being changed while in a GOSUB or PERFORM
+- LOCAL name$
+	- This will keep the variable of name$ to its current state, but once the block has finished, it will reset the value to its original state.
+
+
+
+
+
 
 
 
