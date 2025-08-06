@@ -217,6 +217,15 @@ Use Line labels when using GOSUBs so you don't lose your line number and its cle
 
 ---
 
+Functions:
+- Cvs (similar to stp, stripping spaces, manipulating the contents of the spacing the string you pass in). CVS is more of a binary function. You send it parameter 1, which is strip deleting, parameter 2 is strip the trailing, parameter 3 is strip deleting.
+	- Lets you utilize control characters, so if a third party has junk on a string you don't want, you can convert it to spaces.
+- Stp (stp is the basic version, you're stripping the front, the back, you can even strip certain characters out of the string.
+	- <img width="247" height="343" alt="image" src="https://github.com/user-attachments/assets/83d06bd4-776b-4222-8e6f-4f2facb9699d" />
+
+
+
+
 
 
 
