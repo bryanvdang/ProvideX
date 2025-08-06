@@ -190,8 +190,14 @@ You can assign variables in the LOCAL variables when its initialized.
 - LOCAL name$
 	- This will keep the variable of name$ to its current state, but once the block has finished, it will reset the value to its original state.
 
+---
+PERFORMS are exactly the same as a subsroutine aka gosub but Performs are in a different program
+<img width="180" height="17" alt="image" src="https://github.com/user-attachments/assets/8c8290c6-b254-46f5-849e-cec8716351e3" />
 
-
+- Similar to a GOSUB but in a different program
+- The quotes need the program name followed by the gosub. It has to be a gosub and not a line number.
+- Perform will stop at a return but if there's a GOTO, the GOTO will bypass the return until its done running the code in the GOTO. Then it will return to the stack it was at before.
+---
 
 
 
