@@ -198,6 +198,28 @@ PERFORMS are exactly the same as a subsroutine aka gosub but Performs are in a d
 - The quotes need the program name followed by the gosub. It has to be a gosub and not a line number.
 - Perform will stop at a return but if there's a GOTO, the GOTO will bypass the return until its done running the code in the GOTO. Then it will return to the stack it was at before.
 ---
+Calls are like performs but will localize everything that's not passed into it.
+- Similar to a perform but has parameters
+- Allows for default values
+- They are more similar to a function
+- You only have to be explicit in parameters. If you're passing in a string, you have to make sure the accepting parameters is set to a string as well
+- Calls require 'exit' to get out of the program while subroutines and performs require returns
+- Adding parenthese is a way to prevent the variable from being changed.
+	- <img width="307" height="14" alt="image" src="https://github.com/user-attachments/assets/f51d1864-2ab3-42f5-9f8d-761277504273" />
+
+- Good because they help you containerize code, that can be globally used across the system, protects variables so you don't have to create a long list of localization.
+- Downside side is it gets difficult when it involves multiple file channels.
+<img width="291" height="85" alt="image" src="https://github.com/user-attachments/assets/ec378416-a334-4c17-a3c8-d407dc0fe7c5" />
+Be sure to put an 'END' at the end of the GOSUB(s)
+
+Use Line labels when using GOSUBs so you don't lose your line number and its cleaner.
+<img width="746" height="419" alt="image" src="https://github.com/user-attachments/assets/14732107-044e-4c9e-844b-297dd90e5525" />
+
+---
+
+
+
+
 
 
 
