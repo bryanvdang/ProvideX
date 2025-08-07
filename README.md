@@ -222,6 +222,13 @@ Functions:
 	- Lets you utilize control characters, so if a third party has junk on a string you don't want, you can convert it to spaces.
 - Stp (stp is the basic version, you're stripping the front, the back, you can even strip certain characters out of the string.
 	- <img width="247" height="343" alt="image" src="https://github.com/user-attachments/assets/83d06bd4-776b-4222-8e6f-4f2facb9699d" />
+- Pad
+	- Padding, checking to see if a value is a certain length
+ - Tbl
+ 	- Table statement, similar to a ternary. In a table function, you can have multiple results. The first parameter in your table statement, is the numeric value of what you want to happen.
+In this example is, the string we give it is "W". It will iterate over the string "DWM". First case, if it can't find anything it will return "???", if the string was D it would return Daily, W Weekly, or M monthly. In our example we have W so it returns weekly
+	-<img width="245" height="47" alt="image" src="https://github.com/user-attachments/assets/1ae6d691-4fca-42f0-b51e-94cde103c0bc" />
+
 
 
 
