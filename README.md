@@ -227,7 +227,22 @@ Functions:
  - Tbl
  	- Table statement, similar to a ternary. In a table function, you can have multiple results. The first parameter in your table statement, is the numeric value of what you want to happen.
 In this example is, the string we give it is "W". It will iterate over the string "DWM". First case, if it can't find anything it will return "???", if the string was D it would return Daily, W Weekly, or M monthly. In our example we have W so it returns weekly
-	-<img width="245" height="47" alt="image" src="https://github.com/user-attachments/assets/1ae6d691-4fca-42f0-b51e-94cde103c0bc" />
+	- <img width="245" height="47" alt="image" src="https://github.com/user-attachments/assets/1ae6d691-4fca-42f0-b51e-94cde103c0bc" />
+	- In this example should print "one" since its in the Oneth position, if x was 4, it would error stating 	it doesn't exist within the range (#41)
+ 	- <img width="374" height="128" alt="image" src="https://github.com/user-attachments/assets/dd79c559-66d8-438e-9bcf-423d441ac84d" />
+  	- Char replacement must have matching length
+   		- <img width="483" height="153" alt="image" src="https://github.com/user-attachments/assets/3c5d424d-9461-4dd8-a229-e912bcf5b013" />
+ - cse
+	- Case statement within a function instead of a switch case
+ - not
+   	- Will take the not of the value
+- Nul
+	- Tell you if it’s a null or not (if its empty)
+ 	- A value with 6 spaces is also null
+  	- Use to check if something is actually being set
+
+
+
 
 
 
