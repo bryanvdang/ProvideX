@@ -156,6 +156,12 @@ Select Loop:
 
 - This example (line 90) is saying, go select, grab these values, from this file channel, we're going to force it to start at the beginning and then we're going to keep going until we hit the end $FF$ because we don't usually store hex values in your key structure but $FF$ is a way to force it to the end. This will print values 1 through 30.
 	- <img width="423" height="189" alt="image" src="https://github.com/user-attachments/assets/5ed9bf56-a7a1-4675-b879-5bd722360f37" />
+- Another way to show a specific range. The begin and end is based off the key structure on line 60.
+	- <img width="767" height="584" alt="image" src="https://github.com/user-attachments/assets/4dc3bd22-6eb4-4b46-8919-858429d4ea55" />
+- You can also add a WHERE clause, in this example we're looking at the value not the padded key value
+	- <img width="935" height="89" alt="image" src="https://github.com/user-attachments/assets/655b9fd1-a865-443b-908d-be96ebe05ac6" />
+ 
+
 
 
 
