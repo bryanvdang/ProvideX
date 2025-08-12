@@ -171,6 +171,18 @@ A way to print from our mem
 
 ---
 If - Else:
+<img width="352" height="65" alt="image" src="https://github.com/user-attachments/assets/cea0d6a4-e6a4-40eb-91b4-6a030d4becaa" />
+END_IF is practically a new line. No matter what happens, x will be equal to 6.
+- Don't use brackets when using if else because we can't indent
+- If it’s a case where you need to use brackets to readability, use GOSUB.
+
+In this example we're, this should return success the value 3 exists in the table. If the value was 4, we would hit the error message, string$ would not be set and the message would be set to "Failed". Which would be returned on line 30.
+
+<img width="732" height="326" alt="image" src="https://github.com/user-attachments/assets/d3e3b3a3-89b7-4710-a59c-9c16a36d742d" />
+---
+
+
+
 
 
 
