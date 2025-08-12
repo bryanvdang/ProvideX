@@ -160,7 +160,19 @@ Select Loop:
 	- <img width="767" height="584" alt="image" src="https://github.com/user-attachments/assets/4dc3bd22-6eb4-4b46-8919-858429d4ea55" />
 - You can also add a WHERE clause, in this example we're looking at the value not the padded key value
 	- <img width="935" height="89" alt="image" src="https://github.com/user-attachments/assets/655b9fd1-a865-443b-908d-be96ebe05ac6" />
- 
+- Generally speaking, when we're selecting this value (COUNT$), this is dealing with what's called an I.O list. Meaning this is a hard-coded list of variables that I'm dealing with, which is okay to deal with when dealing with serial files and memory files but when we're dealing with providex files, we don't want to do I.O lists because they change occasionally, and then you have to update all the code that reference those to have the updated version of the I.O list. 
+	- <img width="918" height="29" alt="image" src="https://github.com/user-attachments/assets/8766436c-0316-41d2-b515-448841278141" />
+- This code is saying: we're going to write 3 fields to our memory file
+A way to print from our mem
+- <img width="557" height="90" alt="image" src="https://github.com/user-attachments/assets/b2eef291-cd05-4f32-9ace-57e45a40740d" />
+
+- How to do a select from an embedded I/O list
+	- <img width="570" height="50" alt="image" src="https://github.com/user-attachments/assets/ef0d25d6-ef3d-40f7-8f36-f7be3bee6796" />
+
+---
+If - Else:
+
+
 
 
 
