@@ -171,7 +171,7 @@ A way to print from our mem
 
 ---
 If - Else:
-<img width="352" height="65" alt="image" src="https://github.com/user-attachments/assets/cea0d6a4-e6a4-40eb-91b4-6a030d4becaa" />
+- <img width="352" height="65" alt="image" src="https://github.com/user-attachments/assets/cea0d6a4-e6a4-40eb-91b4-6a030d4becaa" />
 END_IF is practically a new line. No matter what happens, x will be equal to 6.
 - Don't use brackets when using if else because we can't indent
 - If it’s a case where you need to use brackets to readability, use GOSUB.
