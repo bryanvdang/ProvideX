@@ -194,6 +194,12 @@ Example 2:
 
 ---
 
+Switch Statement:
+- Needs a break statement. If there is no break, it will bleed into the next statement until it finds a break
+- Needs a default
+- <img width="463" height="189" alt="image" src="https://github.com/user-attachments/assets/1ff645ac-7a33-41bf-abc0-7cef66cf94b8" />
+
+---
 
 
 
