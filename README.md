@@ -181,6 +181,22 @@ In this example we're, this should return success the value 3 exists in the tabl
 <img width="732" height="326" alt="image" src="https://github.com/user-attachments/assets/d3e3b3a3-89b7-4710-a59c-9c16a36d742d" />
 ---
 
+While Loop:
+- Traditionally speaking, there isn't a lot of while loops that are use. However, the one while loop that is used a lot is a while true or while 1.
+- A loop that goes on infinitely, nothing's going to stop it until we come up with a value to stop it.
+- While condition will check at the end of the condition (it won't check mid code)
+- Needs to have 'WEND' to know where to end
+- <img width="1532" height="818" alt="image" src="https://github.com/user-attachments/assets/e3957fb2-186e-4d56-be0a-02881ef1cfa2" />
+- <img width="1014" height="600" alt="image" src="https://github.com/user-attachments/assets/5c5cdaa9-e8e3-4b16-8cc6-1b20ea605274" />
+
+Example 2:
+- <img width="339" height="137" alt="image" src="https://github.com/user-attachments/assets/a85a45fc-5e0d-4af3-a6e6-71e0b6a63765" />
+
+---
+
+
+
+
 
 
 
