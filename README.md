@@ -219,7 +219,29 @@ $ ls "line label name", b
 
 
 How to create a program that prints string text and a numeric value
-<img width="663" height="330" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
+<img width="463" height="230" alt="image" src="https://github.com/user-attachments/assets/5aa62459-cc5c-441e-ba76-fa4f7ff401d5" />
+
+Renumber Command:
+- $renumber
+- Renumber the lines
+- Always save your program before renumbering, if it screws up your code, reload it and fix it (not a big deal)
+
+- How to move a block of code
+	- Start at the 20000 block, do it by 10s, starting line, ending line
+ 	- <img width="420" height="450" alt="image" src="https://github.com/user-attachments/assets/afa05810-f988-45b0-89c0-3d9ee85d1061" />
+
+PGN:
+- What is the current program I am in
+- $?pgn
+- <img width="186" height="47" alt="image" src="https://github.com/user-attachments/assets/af7c85e4-118b-4654-9fc2-80686d1a4c64" />
+
+Clip Command:
+
+
+
+
+
+
 
 
 
