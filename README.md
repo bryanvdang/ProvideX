@@ -211,6 +211,17 @@ To display every other:
 
 We'll often see for loop for the length of a variable to figure something out.
 
+For-From
+- Better than the For-I loop when dealing with this string data
+- In this example we're going to store each of these values into the PRC$ that we're iterating from. But for our separator, we're going to use the very last character that is used on the string
+	- <img width="491" height="420" alt="image" src="https://github.com/user-attachments/assets/fd069467-102c-4ff1-bcc0-58db8461c669" />
+- If you have a bad separator, you will have bad results
+	- In this case it thinks the 'D' is the separator
+ 	- <img width="492" height="110" alt="image" src="https://github.com/user-attachments/assets/a080d9e8-6469-434d-8e7d-79c622eff675" />
+
+
+
+
 
 
 
