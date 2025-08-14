@@ -200,6 +200,22 @@ Switch Statement:
 - <img width="463" height="189" alt="image" src="https://github.com/user-attachments/assets/1ff645ac-7a33-41bf-abc0-7cef66cf94b8" />
 
 ---
+For-Loop:
+- For-I loop, follows the following convention
+- <img width="194" height="87" alt="image" src="https://github.com/user-attachments/assets/be18b159-2fb6-4a6f-940c-d30b2d972bd8" />
+- <img width="263" height="474" alt="image" src="https://github.com/user-attachments/assets/210c20c8-531b-47f8-b2d6-d932d2606298" />
+
+To display every other:
+- <img width="338" height="24" alt="image" src="https://github.com/user-attachments/assets/e30fffcf-af27-4caa-821b-5ddfbee2a724" />
+- <img width="60" height="137" alt="image" src="https://github.com/user-attachments/assets/e68c434f-5032-44ef-8991-fa2ec0eaea72" />
+
+We'll often see for loop for the length of a variable to figure something out.
+
+
+
+
+
+
 
 
 
