@@ -235,7 +235,16 @@ PGN:
 - $?pgn
 - <img width="186" height="47" alt="image" src="https://github.com/user-attachments/assets/af7c85e4-118b-4654-9fc2-80686d1a4c64" />
 
-Clip Command:
+Move Line: 
+- Mv "line you want to move" "line where you want to move it to"
+
+Swap Lines:
+- Swap two lines of code
+- $swap "line number 1" "line number 2"
+- <img width="109" height="13" alt="image" src="https://github.com/user-attachments/assets/56b27660-9ea8-4e75-8b21-cf2f579ecf3f" />
+
+
+
 
 
 
