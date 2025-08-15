@@ -244,6 +244,23 @@ Swap Lines:
 - <img width="109" height="13" alt="image" src="https://github.com/user-attachments/assets/56b27660-9ea8-4e75-8b21-cf2f579ecf3f" />
 
 
+Escape:
+- End the program and puts you into debug mode
+- Good for debugging after a process takes place
+
+Clip Command: 
+- Clip:
+- If you type the command $clip, the cursor is gone and now in clip board mode and it wants you to highlight something.  Therefore, highlight something, then click 'enter'. The highlight is then stored into the clipboard
+	- <img width="488" height="113" alt="image" src="https://github.com/user-attachments/assets/c0f974a2-9aca-4892-a7c6-dd34bf04a755" />
+ 	- <img width="653" height="69" alt="image" src="https://github.com/user-attachments/assets/569ec80e-7792-46f4-b739-d768e40421cd" />
+
+Clip/Paste
+- You can also clip individual lines if you do $clip + Line number
+- A way to copy and paste into other programs or into notepad or chatGPT
+- <img width="461" height="303" alt="image" src="https://github.com/user-attachments/assets/bcc1ffcd-c2df-4d4e-a6bc-81b06846e3ef" />
+
+
+
 
 
 
