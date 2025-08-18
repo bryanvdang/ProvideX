@@ -259,6 +259,17 @@ Clip/Paste
 - A way to copy and paste into other programs or into notepad or chatGPT
 - <img width="461" height="303" alt="image" src="https://github.com/user-attachments/assets/bcc1ffcd-c2df-4d4e-a6bc-81b06846e3ef" />
 
+- $Paste2 meaning I want to put it somewhere else.
+	- In this example he clipping this code and pasting it at line 10300
+ 	- <img width="231" height="50" alt="image" src="https://github.com/user-attachments/assets/a8ada0f8-a4cd-4637-9d35-08ae0b643617" />
+- $Paste will keep the line number that’s already associated with it. If you're copying from one program to another program. If you want a different line number then use paste2 + Line number
+- When pasting, you'll notice 2 additional dashes. It disables the renumbering functionality to avoid preserving it and having it conflict with other matching line numbers. Therefore the system is just trying to be safe but you can simply remove the dashes after pasting
+	- <img width="455" height="189" alt="image" src="https://github.com/user-attachments/assets/9217c8c2-1b35-4cce-bae3-49085c1c09c3" />
+
+
+
+
+
 
 
 
