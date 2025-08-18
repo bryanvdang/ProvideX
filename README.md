@@ -266,6 +266,17 @@ Clip/Paste
 - When pasting, you'll notice 2 additional dashes. It disables the renumbering functionality to avoid preserving it and having it conflict with other matching line numbers. Therefore the system is just trying to be safe but you can simply remove the dashes after pasting
 	- <img width="455" height="189" alt="image" src="https://github.com/user-attachments/assets/9217c8c2-1b35-4cce-bae3-49085c1c09c3" />
 
+Join Command:
+- Combine two line numbers
+	- <img width="1392" height="161" alt="image" src="https://github.com/user-attachments/assets/d03d5c68-1fd5-4d83-884e-15c8a78d4e50" />
+
+Find Command: (Home Built)
+- After loading a program, typing $f + variable will highlight matching searches
+	- <img width="479" height="326" alt="image" src="https://github.com/user-attachments/assets/15acda67-9e79-4d01-8b3a-8909c79fefb2" />
+
+
+
+
 
 
 
