@@ -298,6 +298,11 @@ Delete:
 - <img width="446" height="308" alt="image" src="https://github.com/user-attachments/assets/76851f33-38e2-4ab1-b362-bb8bc7b513cf" />
 
 LS Command:
+- Command $ls "line number", b
+	- Will take you to the line number in the code
+- Command to take you to a line label until it reaches a return. 'b' for block. List out the block
+	- $ ls "line label name", b
+- How to list out a section of code
 
 
 
