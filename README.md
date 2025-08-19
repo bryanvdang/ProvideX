@@ -291,6 +291,17 @@ Vars command:
  	- <img width="384" height="90" alt="image" src="https://github.com/user-attachments/assets/0d6b07f2-275c-4a60-a920-087fff5e0ced" />
   	- Really comes in handy if you're dealing with numeric vs strings or you're just looking for the numeric version
 
+Delete:
+- Code to remove a block, Delete command followed by starting line then ending line
+- <img width="236" height="24" alt="image" src="https://github.com/user-attachments/assets/ab45ce04-b0b8-4903-b915-150c05232558" />
+- Will remove this block of code
+- <img width="446" height="308" alt="image" src="https://github.com/user-attachments/assets/76851f33-38e2-4ab1-b362-bb8bc7b513cf" />
+
+LS Command:
+
+
+
+
 
 
 
