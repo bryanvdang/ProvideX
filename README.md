@@ -285,6 +285,14 @@ Search and replace
 - Look through these lines, search for this value and make it equal to this new value
 	- <img width="585" height="344" alt="image" src="https://github.com/user-attachments/assets/748d4e57-8b59-4ec0-9da9-e78481bc26f2" />
 
+Vars command:
+- Vars + "variable name" will show the lines of code that matches the variable name
+	- List the lines of code that match this specific variable
+ 	- <img width="384" height="90" alt="image" src="https://github.com/user-attachments/assets/0d6b07f2-275c-4a60-a920-087fff5e0ced" />
+  	- Really comes in handy if you're dealing with numeric vs strings or you're just looking for the numeric version
+
+
+
 
 
 
