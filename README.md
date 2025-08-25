@@ -312,7 +312,7 @@ LS Command:
  - If you type $LS, it will display the last one that you did.
  - $LS +"Subroutine", it will add the subroutine to our view (Adding to the view)
  	- Its a good way to create a view of stack tracing a problem in the code
-  	- <img width="757" height="420" alt="image" src="https://github.com/user-attachments/assets/76be4f26-8273-4ea7-b8a8-41c55e446067" />
+
 
 
 
