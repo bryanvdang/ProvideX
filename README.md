@@ -272,18 +272,12 @@ Join Command:
 
 Find Command: (Home Built)
 - After loading a program, typing $f + variable will highlight matching searches
-	- <img width="479" height="326" alt="image" src="https://github.com/user-attachments/assets/15acda67-9e79-4d01-8b3a-8909c79fefb2" />
+
 - If you only care about a variable within this subroutine run command $f -ls "variable name"
 	- This command is saying go look at my most recent LS command, and only return matches within that block
- 	- <img width="765" height="513" alt="image" src="https://github.com/user-attachments/assets/99649422-5436-45e3-a6a6-624721de458e" />
-
-ProvideX find uses an asterisk bracket for searching 
-- To search within a block
-	- <img width="297" height="191" alt="image" src="https://github.com/user-attachments/assets/9bab108e-35f7-4558-b229-48b23652aa31" />
 
 Search and replace
 - Look through these lines, search for this value and make it equal to this new value
-	- <img width="585" height="344" alt="image" src="https://github.com/user-attachments/assets/748d4e57-8b59-4ec0-9da9-e78481bc26f2" />
 
 Vars command:
 - Vars + "variable name" will show the lines of code that matches the variable name
