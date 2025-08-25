@@ -303,6 +303,25 @@ LS Command:
 - Command to take you to a line label until it reaches a return. 'b' for block. List out the block
 	- $ ls "line label name", b
 - How to list out a section of code
+	- <img width="211" height="117" alt="image" src="https://github.com/user-attachments/assets/d2950583-d4e5-4dea-a1ea-1eeecc3d0a00" />
+- $ls 10100, 2b
+	- Will give you 2 blocks of code
+- List out code will save in memory the last couple lists we've done
+	- <img width="597" height="15" alt="image" src="https://github.com/user-attachments/assets/e38e0966-d792-42d3-b861-3a9fcaea1f28" />
+	-  If we type $LS2, it would bring us to that block.
+ - If you type $LS, it will display the last one that you did.
+ - $LS +"Subroutine", it will add the subroutine to our view (Adding to the view)
+ 	- Its a good way to create a view of stack tracing a problem in the code
+  	- <img width="757" height="420" alt="image" src="https://github.com/user-attachments/assets/76be4f26-8273-4ea7-b8a8-41c55e446067" />
+
+
+
+
+
+ 
+
+
+
 
 
 
