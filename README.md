@@ -315,6 +315,20 @@ Create Block Command:
 - On enter it will create the block with a Field Line.
 - <img width="210" height="94" alt="image" src="https://github.com/user-attachments/assets/e83cc197-310a-4f8f-bfa1-d59384d9c85f" />
 - The ^100, 10 is auto generated. It is a special comment that tells the program of how to renumber itself and where it should be.
+	- If we did a renumber it would start on a line in the next 100 increment and default by 10s. System default is 10 but you can re command it to use a different default.
+ 	- So if you're on line 5110, it would put you at 5200.
+  	- <img width="220" height="18" alt="image" src="https://github.com/user-attachments/assets/b3c2a4cc-b423-4082-9297-ed1f6fe9fe05" />
+
+- This command sets your END: statement to always be at line 5000
+	- <img width="163" height="21" alt="image" src="https://github.com/user-attachments/assets/cac50a0f-f549-463b-b136-b5f25d6a48bd" />
+
+ Command to get back to the main blue menu. The 2 commands do the same thing.
+- $run "AIDS"
+- $run "SELCT3"
+
+
+ 
+
 
 
 
