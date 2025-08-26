@@ -307,6 +307,18 @@ LS Command:
  - $LS +"Subroutine", it will add the subroutine to our view (Adding to the view)
  	- Its a good way to create a view of stack tracing a problem in the code
 
+Create Block Command:
+- $CB
+- Creates a block
+- Command will ask for line number followed by name of block
+- <img width="336" height="64" alt="image" src="https://github.com/user-attachments/assets/913ac9ac-dd97-418f-8edb-bc2c1c279d0c" />
+- On enter it will create the block with a Field Line.
+- <img width="210" height="94" alt="image" src="https://github.com/user-attachments/assets/e83cc197-310a-4f8f-bfa1-d59384d9c85f" />
+- The ^100, 10 is auto generated. It is a special comment that tells the program of how to renumber itself and where it should be.
+
+
+
+
 
 
 
