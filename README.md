@@ -335,6 +335,30 @@ If you want rows or columns in excel, tab is hex09.
 In this example they would be tab-separated, the last column got a hexD0A to specify that we're on a new row now.
 - <img width="346" height="12" alt="image" src="https://github.com/user-attachments/assets/9555a0b0-981e-4a02-a816-7e456f55f9ef" />
 
+Execute command:
+Basically dynamically creating lines of code.
+
+Useful commands for troubleshooting:
+$dumpscan "value"
+	- A memory dump of all the values that are out there that have that value in there. 
+$localdump 
+	- Similar to dumpscan. It's basically looking at your current environment. You know when you go through a call, it kind of separates the environment because it localizes all the variables? A dumpscan will look at variables that are beyond calls. Where a localdump says to give me everything that is currently available, that is currently set.
+
+$PI command
+- Progress indicator. Some utility programs will have this
+- Running PI + "line number" is automatically going to create this line of code.
+	- <img width="621" height="63" alt="image" src="https://github.com/user-attachments/assets/b7afd67f-e0e3-426b-96b4-56ddb68d73c0" />
+- When you run the code, it will run a progress indicator
+	- <img width="307" height="21" alt="image" src="https://github.com/user-attachments/assets/110f0a6e-7f64-40a7-981e-59c0e4195918" />
+- If you do a F1 while the progress indicator is running, it allows me to escape out of my loops. So if you ever get to the point where you're in an endless loop or I would like to be able to stop my loop from processing. Use a PI, throw an escape in there, and it'll be looking for an F1. When the code get to the 'OBTAIN' it'll check if you hit an F1 and then escape out. Good safety net when you're writing loops, importing data and such.
+
+
+
+
+
+
+
+
 
 
 
