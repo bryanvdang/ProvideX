@@ -326,6 +326,17 @@ Create Block Command:
 - $run "AIDS"
 - $run "SELCT3"
 
+Clip_board Command:
+It's very slow to write out to excel. This command clip_board write allows you to copy and paste values and paste to excel in case you ever need to get data/information out to a user, they usually like it in excel. Kind of like a one off thing.
+- <img width="155" height="14" alt="image" src="https://github.com/user-attachments/assets/aed4ebde-2d5c-4987-8d80-27e7afcbcce2" />
+- Paste in Excel
+
+If you want rows or columns in excel, tab is hex09. 
+In this example they would be tab-separated, the last column got a hexD0A to specify that we're on a new row now.
+- <img width="346" height="12" alt="image" src="https://github.com/user-attachments/assets/9555a0b0-981e-4a02-a816-7e456f55f9ef" />
+
+
+
 
  
 
