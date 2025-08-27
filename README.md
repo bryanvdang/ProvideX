@@ -355,6 +355,19 @@ $PI command
 $VP command:
 - Basically view, perform. So if we do VP "Line number", translates to "go show me what this block of code is doing."
 
+- Works with GOSUB, so you can pass in the GOSUB and it'll show it to you.
+	- <img width="122" height="116" alt="image" src="https://github.com/user-attachments/assets/6af2c1c0-2a11-49da-b1d4-0d6913e94307" />
+- So if you see a PERFORM, do the VP and the VP will show it to you without you having to load up a different program
+
+$Stack command:
+- Basically shows where you are in your program. It'll have stack line numbers when you bounce between performs and calls.
+
+Precision:
+
+
+
+
+
 
 
 
