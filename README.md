@@ -352,6 +352,9 @@ $PI command
 	- <img width="307" height="21" alt="image" src="https://github.com/user-attachments/assets/110f0a6e-7f64-40a7-981e-59c0e4195918" />
 - If you do a F1 while the progress indicator is running, it allows me to escape out of my loops. So if you ever get to the point where you're in an endless loop or I would like to be able to stop my loop from processing. Use a PI, throw an escape in there, and it'll be looking for an F1. When the code get to the 'OBTAIN' it'll check if you hit an F1 and then escape out. Good safety net when you're writing loops, importing data and such.
 
+$VP command:
+- Basically view, perform. So if we do VP "Line number", translates to "go show me what this block of code is doing."
+
 
 
 
