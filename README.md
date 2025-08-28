@@ -363,7 +363,8 @@ $Stack command:
 - Basically shows where you are in your program. It'll have stack line numbers when you bounce between performs and calls.
 
 Precision:
-
+- By default, MERP usually runs on precision of 5. Sets the precision if precision has changed. If you do precision of -1, it sets everything to a floating point. 
+- abCaution: if you convert a number to a string, while floating point is active, you will get the scientific notation for that.
 
 
 
