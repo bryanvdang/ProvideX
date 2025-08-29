@@ -378,6 +378,15 @@ There's been an issue where some data is out of sync between two systems and we 
 TMUX command: 
 - Basically it's going to start this process on the server. We're going to call it this thing (first red line), we're going to go run this program (2nd red line) and here are my arguments to it (next 2 red lines)
 
+WDX command:
+
+The WDX command allows the windX process to connect with our PC as well as save to it. 
+E.g. we created a text file with the contents "HELLO WORLD" inside of it.
+- <img width="333" height="48" alt="image" src="https://github.com/user-attachments/assets/41ccc652-9c95-4640-9667-164eb5b38c37" />
+
+How to save to users local machine
+<img width="1263" height="436" alt="image" src="https://github.com/user-attachments/assets/0427544a-8996-48aa-b79c-37415a025d6d" />
+
 
 
 
