@@ -370,6 +370,14 @@ Precision:
 PRC function:
 - Basically says, go set this single value to precision of whatever want, one of the parameters on there. 
 
+Execute Command:
+
+There's been an issue where some data is out of sync between two systems and we need a quick way to resync those. ITNs. So Chris created a program that non provideX users can use. The program would get a list of ITNs that have problems. Line 20 reads in from the clip board putting it in a list.
+- <img width="233" height="21" alt="image" src="https://github.com/user-attachments/assets/26ea82e6-8329-42be-b0f4-ff6c794b691d" />
+
+TMUX command: 
+- Basically it's going to start this process on the server. We're going to call it this thing (first red line), we're going to go run this program (2nd red line) and here are my arguments to it (next 2 red lines)
+
 
 
 
