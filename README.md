@@ -364,7 +364,13 @@ $Stack command:
 
 Precision:
 - By default, MERP usually runs on precision of 5. Sets the precision if precision has changed. If you do precision of -1, it sets everything to a floating point. 
-- abCaution: if you convert a number to a string, while floating point is active, you will get the scientific notation for that.
+- Caution: if you convert a number to a string, while floating point is active, you will get the scientific notation for that.
+	- <img width="79" height="179" alt="image" src="https://github.com/user-attachments/assets/12bf993d-914c-4e7f-895a-88952e4e37dc" />
+
+PRC function:
+- Basically says, go set this single value to precision of whatever want, one of the parameters on there. 
+
+
 
 
 
