@@ -127,6 +127,15 @@ In this example is, the string we give it is "W". It will iterate over the strin
 	- Has lots of formatting masks. Use for currency or decimal
 - Int
     - Not used too much but it takes the integer of a number<img width="583" height="257" alt="image" src="https://github.com/user-attachments/assets/7f4b50ff-1305-4ad5-93a3-dcaec5f67faa" />
+- Mid
+	- Can be used to take off the first char of a string
+ 	- mid(string$, 2)
+More Functions:
+- Sys(): 
+	- Basically sends out a command to the server to say, go process this.
+ - 
+
+
 
 ---
 Arithmetic:
