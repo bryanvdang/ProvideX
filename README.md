@@ -387,6 +387,19 @@ E.g. we created a text file with the contents "HELLO WORLD" inside of it.
 How to save to users local machine
 <img width="1263" height="436" alt="image" src="https://github.com/user-attachments/assets/0427544a-8996-48aa-b79c-37415a025d6d" />
 
+FI command:
+- $fi
+- Go look up information
+
+PIOL command:
+- Print IO list
+- print the contents of a IO list or record
+
+Gui command
+- $gui
+- Only downfall of gui is that you usually only use it to view a file or update a file
+- When you need to change a value in the file itself, sometimes it better to update in the gui rather than writing a program to read in the record, change the value, then write it out.
+
 
 
 
