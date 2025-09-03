@@ -409,6 +409,23 @@ Gui command
 - Only downfall of gui is that you usually only use it to view a file or update a file
 - When you need to change a value in the file itself, sometimes it better to update in the gui rather than writing a program to read in the record, change the value, then write it out.
 
+---
+Arrays
+- In this base array, we're creating a string array with 10 elements
+	- DIM meaning dimension
+ 	- <img width="112" height="13" alt="image" src="https://github.com/user-attachments/assets/cf6c7d46-cb0c-48ee-801b-f148252ca967" />
+- Basic arrays are 0 based, meaning they start at 0
+	- If you wanted, you could set the base to 1, not sure why, but you could
+ 	- <img width="133" height="16" alt="image" src="https://github.com/user-attachments/assets/826deabf-cb65-4e29-8e64-45715b091299" />
+
+DIM
+- We have directives for DIM and functions for DIM (Dimensionalize)
+	- DIM function is to find out information about an array 'DIM()'
+
+
+
+
+
 
 
 
