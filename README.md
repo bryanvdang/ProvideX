@@ -423,6 +423,13 @@ DIM
 	- DIM function is to find out information about an array 'DIM()'
  		- E.g. Give the max index of the array.
   		- <img width="178" height="28" alt="image" src="https://github.com/user-attachments/assets/d2f400cd-5f5e-4e24-8e66-438fb7846fcb" />
+		- E.g. Give the max length
+  		- <img width="165" height="33" alt="image" src="https://github.com/user-attachments/assets/66157976-8316-47fc-87c0-f944fc23677a" />
+	- DIM directive is for creating arrays
+
+
+
+
 
  
 
