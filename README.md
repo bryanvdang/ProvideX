@@ -427,6 +427,18 @@ DIM
   		- <img width="165" height="33" alt="image" src="https://github.com/user-attachments/assets/66157976-8316-47fc-87c0-f944fc23677a" />
 	- DIM directive is for creating arrays
 
+Dynamic Arrays
+- The better arrays are the more dynamic arrays
+- When using a dynamic array, there isn't a need to use the DIM directive
+- In this example, this line is saying without dimming it out, create an array, give it this element name, we're going to assign it 'TOM' in all one swoop.
+	- <img width="189" height="81" alt="image" src="https://github.com/user-attachments/assets/891b9cc5-211b-4706-86e4-cfef7aa867f5" />
+- Nice thing about using the names arrays is you can create json off of it automatically.
+	- Funny thing, you need the words SORT or EDIT, Sort is to sort it alphabetically and edit is supposed to leave it normally however there is a bug in that system that always sorts the JSON.
+ 		- <img width="412" height="13" alt="image" src="https://github.com/user-attachments/assets/a99090c8-3465-4b5d-9e4d-7e2070af27ef" />
+
+
+
+
 
 
 
