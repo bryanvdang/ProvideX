@@ -439,6 +439,14 @@ Dynamic Arrays
 	 	- The numbers is a way to differentiate against other objects
  
 Chris used this a lot when dealing with Kafka Queue because he would grab data out of the MERP database. He would store it into one of these named arrays and then push it out into JSON.
+	- The nice thing about this JSON escapes any characters. That need to be escaped for JSON. Then we stick that into a file and send it off to another service, and so he doesn't have to worry about protecting special characters. Since the DIM list does it for you, creates the JSON string, and pushes it out.
+ 	- Supposedly there's a JSON object that might be in the newer version of ProvideX that’s supposed to be nice to work with but haven't had a chance to work with it yet since this generally works pretty good.
+  	- We're dealing with these JSON arrays more and more because we're trying to interface with third parties, and it’s a lot easier to do it in JSON
+
+Creating a new array, based off of this JSON value that I just happen to have here 'json$'
+	- <img width="279" height="174" alt="image" src="https://github.com/user-attachments/assets/f847ffc7-ba23-43fc-92e7-21bc01e371f0" />
+
+
 
 
 
