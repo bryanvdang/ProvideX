@@ -435,6 +435,12 @@ Dynamic Arrays
 - Nice thing about using the names arrays is you can create json off of it automatically.
 	- Funny thing, you need the words SORT or EDIT, Sort is to sort it alphabetically and edit is supposed to leave it normally however there is a bug in that system that always sorts the JSON.
  		- <img width="412" height="13" alt="image" src="https://github.com/user-attachments/assets/a99090c8-3465-4b5d-9e4d-7e2070af27ef" />
+   		- <img width="247" height="157" alt="image" src="https://github.com/user-attachments/assets/707c3b6d-11a5-42e3-b03a-b5e3a5254031" />
+	 	- The numbers is a way to differentiate against other objects
+ 
+Chris used this a lot when dealing with Kafka Queue because he would grab data out of the MERP database. He would store it into one of these named arrays and then push it out into JSON.
+
+
 
 
 
