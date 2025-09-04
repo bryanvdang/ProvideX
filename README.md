@@ -421,6 +421,10 @@ Arrays
 DIM
 - We have directives for DIM and functions for DIM (Dimensionalize)
 	- DIM function is to find out information about an array 'DIM()'
+ 		- E.g. Give the max index of the array.
+  		- <img width="178" height="28" alt="image" src="https://github.com/user-attachments/assets/d2f400cd-5f5e-4e24-8e66-438fb7846fcb" />
+
+ 
 
 
 
