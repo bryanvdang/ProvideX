@@ -445,6 +445,29 @@ Chris used this a lot when dealing with Kafka Queue because he would grab data o
 
 Creating a new array, based off of this JSON value that I just happen to have here 'json$'
 	- <img width="279" height="174" alt="image" src="https://github.com/user-attachments/assets/f847ffc7-ba23-43fc-92e7-21bc01e371f0" />
+	- Now we're going to build it into an array using DIM LOAD, that allows us to now manipulate it. 
+ 	- Which now allows to do some looping based off the indexes in the array to go manage that and deal with whatever we want with it.
+- Theres functionality to DROP an element
+	- <img width="415" height="10" alt="image" src="https://github.com/user-attachments/assets/b58db80b-6203-4597-8a45-1bc54961bf44" />
+- Check if an element exists
+	- Does the customer.1.name exist in this array, yes or no
+ 	- <img width="390" height="18" alt="image" src="https://github.com/user-attachments/assets/ab5d11d8-0f6a-452f-a4b9-6f3a54a9bfb6" />
+
+Taking inputs and adding it to an array then adding it to a keyed file
+<img width="750" height="557" alt="image" src="https://github.com/user-attachments/assets/31d85340-8c9a-4630-8856-d7f7ed2b22e1" />
+
+<img width="469" height="186" alt="image" src="https://github.com/user-attachments/assets/850984b9-faba-4095-bc8e-40e030676692" />
+
+<img width="851" height="346" alt="image" src="https://github.com/user-attachments/assets/aed2c3fa-cac1-4c69-9181-e20994db174a" />
+
+
+
+
+
+
+
+
+
 
 
 
