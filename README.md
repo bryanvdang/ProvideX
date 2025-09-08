@@ -478,6 +478,13 @@ In this example, this is an object Chris created to communicate with the Postgre
 - If you ever get to the point of needing to create an object, try to find one that similar and try to copy from it.
 - 'PROPERTY' are values that are stored inside the object that can be used inside all of the functions and can also be referenced from outside of the object.
 
+---
+Read Data from
+- Use this very rarely
+- If you have a list of variables or list of data, and you want to load things into another list, read data from can kind of help with that.
+- There's a couple different methods and scenarios on how to use it here is an example of what Chris did recently.
+
+
 
 
 
