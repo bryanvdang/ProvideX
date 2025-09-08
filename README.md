@@ -466,7 +466,20 @@ Objects:
 
 Time/Tim function:
 - Internally developed object to help with the date and time storage to deal with timestamps.
-- It will actually go out and ask the server for the current timestamp on more of a normal level and we'll get a value like this. Then you can format it with the DTE function. 
+- It will actually go out and ask the server for the current timestamp on more of a normal level and we'll get a value like this. Then you can format it with the DTE function.
+	- <img width="313" height="61" alt="image" src="https://github.com/user-attachments/assets/01b0a1b7-5c6c-4fa8-916d-4d74f7eb3766" />
+- When storing date and time in files, this is the preferred way to do it
+- Something we'll see that’s is embedded provideX function of 'tim'. Which is what is the current time right now as a percentage of the hour.
+- The value is decimal based. They'll usually store it as a 5-digit value.
+	- <img width="90" height="37" alt="image" src="https://github.com/user-attachments/assets/df63f1a4-f44c-45fa-b48f-975398615e26" />
+
+Objects are typically, not always, created ending with .pvc and they are case sensitive.
+In this example, this is an object Chris created to communicate with the Postgres database.
+- If you ever get to the point of needing to create an object, try to find one that similar and try to copy from it.
+- 'PROPERTY' are values that are stored inside the object that can be used inside all of the functions and can also be referenced from outside of the object.
+
+
+
 
 
 
