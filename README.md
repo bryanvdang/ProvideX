@@ -484,7 +484,9 @@ Read Data from
 - If you have a list of variables or list of data, and you want to load things into another list, read data from can kind of help with that.
 - There's a couple different methods and scenarios on how to use it here is an example of what Chris did recently.
 
-
+---
+Inputs/Mnemonics
+<img width="559" height="111" alt="image" src="https://github.com/user-attachments/assets/f6c1970f-1132-4f7e-b923-acadd66ad91c" />
 
 
 
