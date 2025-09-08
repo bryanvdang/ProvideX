@@ -458,7 +458,15 @@ Taking inputs and adding it to an array then adding it to a keyed file
 <img width="469" height="186" alt="image" src="https://github.com/user-attachments/assets/850984b9-faba-4095-bc8e-40e030676692" />
 
 <img width="851" height="346" alt="image" src="https://github.com/user-attachments/assets/aed2c3fa-cac1-4c69-9181-e20994db174a" />
+---
+Objects:
+- You'll use them here and there but generally not too big of a thing
+- A downfall of objects is that a lot of provideX developers aren't familiar with them
+	- The most difficult thing is that they are cached programs. Meaning if you changed something and pushed it to production, any process that’s out there has to be closed completely down and start back up for it to pick up the new object definition. Web processes would have to restart, so it hard to push those changes so we don't break ongoing processes.
 
+Time/Tim function:
+- Internally developed object to help with the date and time storage to deal with timestamps.
+- It will actually go out and ask the server for the current timestamp on more of a normal level and we'll get a value like this. Then you can format it with the DTE function. 
 
 
 
