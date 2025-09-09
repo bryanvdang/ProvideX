@@ -488,7 +488,16 @@ Read Data from
 Inputs/Mnemonics
 <img width="559" height="111" alt="image" src="https://github.com/user-attachments/assets/f6c1970f-1132-4f7e-b923-acadd66ad91c" />
 
+Input with validator
+<img width="750" height="557" alt="image" src="https://github.com/user-attachments/assets/03fff788-a0f7-4030-8a30-d886e5e2df52" />
+In another program called bryan_dang_validator
+<img width="709" height="524" alt="image" src="https://github.com/user-attachments/assets/9b7176fb-eb39-423a-aa9b-30495b710371" />
+---
 
+Mnemonics
+
+Found on via Language Reference -> Mnemonics
+Mnemonics are generally inserted within a PRINT or INPUT statement to invoke such functions as clearing the screen, positioning the cursor, changing the color of characters, setting/resetting various attributes, or enabling/disabling I/O modes.
 
 
 
