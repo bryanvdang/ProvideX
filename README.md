@@ -515,6 +515,25 @@ Mnemonics are generally inserted within a PRINT or INPUT statement to invoke suc
 
  To allow for address
  <img width="466" height="62" alt="image" src="https://github.com/user-attachments/assets/d63c1e99-90a6-44e7-9f16-bb3ba72ece8e" />
+
+ <img width="452" height="243" alt="image" src="https://github.com/user-attachments/assets/7c31c578-ae59-4b9e-a514-f15a39ef3d24" />
+
+---
+Files
+
+Serial Files
+- Basic Text file, not much more to that
+- Important to know that the system is going to require you to have that as a locked file channel. Meaning you are the only person that can access it at the time, while you have it open.
+- The following is example is that we're creating a file named "chris_test_file.txt" from the variable "FILE$".
+	- <img width="496" height="49" alt="image" src="https://github.com/user-attachments/assets/bf051701-e544-4fde-bfe3-66f15a44fa42" />
+
+
+
+
+
+
+---
+System Variables
  
 
 
