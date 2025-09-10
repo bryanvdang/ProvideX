@@ -506,7 +506,21 @@ Mnemonics are generally inserted within a PRINT or INPUT statement to invoke suc
 - The following code prints HILLO since line 30 over takes line 20. But if we use the Mnemonic, 'CL' clear line, it will clear everything pass "HI"
 	- <img width="177" height="80" alt="image" src="https://github.com/user-attachments/assets/3f180152-13d5-4e53-9380-f488ff65071e" />
  
+ ---
+ Regex
+ <img width="540" height="65" alt="image" src="https://github.com/user-attachments/assets/dcc59768-dd56-44dc-aad6-bfa1d6343f20" />
+
+ To allow for spaces. E.g. first name + last name
+ <img width="426" height="14" alt="image" src="https://github.com/user-attachments/assets/6b2cf531-b126-4990-a272-c725878ddb14" />
+
+ To allow for address
+ <img width="466" height="62" alt="image" src="https://github.com/user-attachments/assets/d63c1e99-90a6-44e7-9f16-bb3ba72ece8e" />
  
+
+
+
+
+
 
 
 
