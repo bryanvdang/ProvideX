@@ -499,6 +499,16 @@ Mnemonics
 Found on via Language Reference -> Mnemonics
 Mnemonics are generally inserted within a PRINT or INPUT statement to invoke such functions as clearing the screen, positioning the cursor, changing the color of characters, setting/resetting various attributes, or enabling/disabling I/O modes.
 
+- ‘cs’ : clear screen
+- 'lf' : Line Feed
+- ?'CE'T : Clear everything down
+
+- The following code prints HILLO since line 30 over takes line 20. But if we use the Mnemonic, 'CL' clear line, it will clear everything pass "HI"
+	- <img width="177" height="80" alt="image" src="https://github.com/user-attachments/assets/3f180152-13d5-4e53-9380-f488ff65071e" />
+ 
+ 
+
+
 
 
 
