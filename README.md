@@ -526,6 +526,13 @@ Serial Files
 - Important to know that the system is going to require you to have that as a locked file channel. Meaning you are the only person that can access it at the time, while you have it open.
 - The following is example is that we're creating a file named "chris_test_file.txt" from the variable "FILE$".
 	- <img width="496" height="49" alt="image" src="https://github.com/user-attachments/assets/bf051701-e544-4fde-bfe3-66f15a44fa42" />
+- First step is to create the path then we create it using the 'serial' command
+- If we check our putty, we should see that file created in our directory
+
+- The way to now use that file is by opening up a file channel to this file.
+	- Since it’s a serial file we need the "open lock" command followed by the next highest available file channel that available "HFN" (Highest available local channel), open it up to FILE$ since that's already set for us.
+
+
 
 
 
