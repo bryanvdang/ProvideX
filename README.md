@@ -536,6 +536,14 @@ Serial Files
  		- <img width="385" height="34" alt="image" src="https://github.com/user-attachments/assets/2ddb1e7a-5da2-4f22-9255-855a38602d9d" />
 	- Standard practice is saying, now that I opened up this channel, I'm going to assign a variable to that channel number that we just opened up.
  	- <img width="328" height="67" alt="image" src="https://github.com/user-attachments/assets/e7727261-16f1-4bea-86a8-182f12fa3b01" />
+	- The standard is that this variable should always be referencing something about that file. For text files and serial files that's going to be a bit more loose because it's for your environment that you're dealing with.
+ 	- If you had a file called M1PickRT, that variable should be set to M1PickRT or a variation of that. Like underscore 2, underscore 3, depending on how many is open or whatnot.
+- Now that the file is open, we can print or write to it.
+	- <img width="304" height="36" alt="image" src="https://github.com/user-attachments/assets/ff74071d-9c9a-49d8-9e9f-9b6e78c90227" />
+
+
+
+
 
 
 
