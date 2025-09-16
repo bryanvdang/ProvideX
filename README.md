@@ -564,6 +564,31 @@ Serial Files
 	- So this format is saying that we're initializing the file (FILE$) and if there is a file there, erase it. If not, it will hit the error but it's an err=*next meaning, even if there is no file to delete, we don't care, move on. Then it will create the file.
  	- <img width="491" height="112" alt="image" src="https://github.com/user-attachments/assets/aec47918-9d62-499f-90b7-a78a15c34b91" />
 
+- Printing it to a text file
+	- This code will print the jsonified list (INPUTLIST$) to the userdetail file and then close the connection. After closing the connection. If you $cat the file, it should show its contents
+ 	- <img width="1249" height="43" alt="image" src="https://github.com/user-attachments/assets/f2e7cf6b-c134-4906-a08c-b60181b1dfa5" />
+
+Theres a way to read all the records at once, you basically find the length of the file, then you read in base and set the size to the length of the file
+
+- Fin command: $fin to show how many records are in the file
+	- <img width="190" height="28" alt="image" src="https://github.com/user-attachments/assets/235ac6b0-9fa8-4994-8e2d-1cdba8a7eef3" />
+
+- ?LFA (Last File Accessed) or LFO (Last File Opened)
+- Channel numbers meaning, regular file channels that are not globally opened go to like 32,767 or something close to that. Global channel goes from the 32,767 to 65,998, the GFN. Just the general range of numbers and how they work (global vs non-global)
+	- <img width="52" height="97" alt="image" src="https://github.com/user-attachments/assets/2a4b93c1-1b8c-4975-8d84-95a5c533132a" />
+
+ ---
+
+
+
+ 
+
+
+
+
+
+
+
 
 
 
