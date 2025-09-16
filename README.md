@@ -554,6 +554,26 @@ Serial Files
 	- <img width="235" height="22" alt="image" src="https://github.com/user-attachments/assets/261030c1-d1af-49e9-9d0e-caa99e2f3ddf" />
 	- <img width="382" height="76" alt="image" src="https://github.com/user-attachments/assets/876ebe7a-07dc-4be0-8a7e-73f6f03c6fa0" />
  	- <img width="439" height="51" alt="image" src="https://github.com/user-attachments/assets/6db3e9bf-b351-4b83-bb76-7f71bb0f5862" />
+- The weird symbol in the end is a line terminator of sorts. It's basically a record separator that’s being stored there. If you do a print, you won't get the separator symbol $write(myfile)"SOMETHING ELSE"
+- How to read each record individually
+	- <img width="487" height="265" alt="image" src="https://github.com/user-attachments/assets/fb3d79ae-0992-41ee-84e7-8c6df9a89631" />
+- This allows to read one character at a time, if record was "Hello World" this would return "H"
+- <img width="374" height="22" alt="image" src="https://github.com/user-attachments/assets/2a24c244-18fd-47ed-9838-8d3afda406c7" />
+
+- Clearing/Erasing a file before inputting into it
+	- So this format is saying that we're initializing the file (FILE$) and if there is a file there, erase it. If not, it will hit the error but it's an err=*next meaning, even if there is no file to delete, we don't care, move on. Then it will create the file.
+ 	- <img width="491" height="112" alt="image" src="https://github.com/user-attachments/assets/aec47918-9d62-499f-90b7-a78a15c34b91" />
+
+
+
+
+
+
+
+
+
+
+
   
 
 
