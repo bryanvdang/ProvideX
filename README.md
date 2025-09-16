@@ -552,6 +552,11 @@ Serial Files
 		- Lots of files will use this when we're talking about logging events in the system that are through the text files.
 - If you want to keep the contents of the file append err=*next to the serial command, which is basically saying "Idc that there's a file already, just continue." and it will.
 	- <img width="235" height="22" alt="image" src="https://github.com/user-attachments/assets/261030c1-d1af-49e9-9d0e-caa99e2f3ddf" />
+	- <img width="382" height="76" alt="image" src="https://github.com/user-attachments/assets/876ebe7a-07dc-4be0-8a7e-73f6f03c6fa0" />
+ 	- <img width="439" height="51" alt="image" src="https://github.com/user-attachments/assets/6db3e9bf-b351-4b83-bb76-7f71bb0f5862" />
+  
+
+
 
 
 
