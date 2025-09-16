@@ -540,6 +540,28 @@ Serial Files
  	- If you had a file called M1PickRT, that variable should be set to M1PickRT or a variation of that. Like underscore 2, underscore 3, depending on how many is open or whatnot.
 - Now that the file is open, we can print or write to it.
 	- <img width="304" height="36" alt="image" src="https://github.com/user-attachments/assets/ff74071d-9c9a-49d8-9e9f-9b6e78c90227" />
+	- If you write to it and try to access it via linux it will show that it's empty because we have a print buffer that's buffering up those messages until you force clear it or close the file channel. So if you close the file, it will release the buffer and then you can see the contents in linux
+ 	- <img width="310" height="52" alt="image" src="https://github.com/user-attachments/assets/c6eeb2a9-4abe-404d-8a1a-fb21fd7fb273" />
+- Now if you wanted to use the same file or variations of the same file, there are different approaches to take to do that.
+	- This function provides a time stamp plus the process id to make it unique.
+ 	- <img width="310" height="52" alt="image" src="https://github.com/user-attachments/assets/88efb192-e3cb-4b7e-bbc2-ad75505f45be" />
+
+- Now if you wanted to use the same file or variations of the same file, there are different approaches to take to do that.
+	- This function provides a time stamp plus the process id to make it unique.
+ 		- <img width="205" height="127" alt="image" src="https://github.com/user-attachments/assets/af68f673-3866-447c-9a8b-c450f09f84c3" />
+		- Lots of files will use this when we're talking about logging events in the system that are through the text files.
+- If you want to keep the contents of the file append err=*next to the serial command, which is basically saying "Idc that there's a file already, just continue." and it will.
+	- <img width="235" height="22" alt="image" src="https://github.com/user-attachments/assets/261030c1-d1af-49e9-9d0e-caa99e2f3ddf" />
+
+
+
+
+
+
+
+
+
+
 
 
 
