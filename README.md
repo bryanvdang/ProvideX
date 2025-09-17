@@ -578,6 +578,20 @@ Theres a way to read all the records at once, you basically find the length of t
 	- <img width="52" height="97" alt="image" src="https://github.com/user-attachments/assets/2a4b93c1-1b8c-4975-8d84-95a5c533132a" />
 
  ---
+ProvideX files
+
+- Alternate keys, also known as Kno, or key number.
+	- Commas are separating all of the alternate keys
+
+Indexed Files
+- Considered ProvideX files, Older style file used in MERP Externally keyed
+- Error 13 (internally keyed), it's because you most likely are messing up with the key equals, depending on the type of file.
+- ERR 13, (externally keyed) if you try to write to your keyed file, you'll get an error 13 because it didn't specify what key I wanted that to be, because it's externally keyed, it's a separate field, I have to specify. If it’s the same record, I can say the key is equal to the current key. Which is the KEC of my current file.
+
+
+
+
+
 
 
 
