@@ -599,6 +599,21 @@ You can actually set up a memory file to be based off of this type of keying str
 
 The advantage of the keyed system, instead of doing a key equals, you can just do a write and because of the way that the file was opened or how the memory file was created, it has that keyed function to it. It knows that the first field, 1 for 6 is the key of this file. So you don't have to specify the key. It embeds it into its knowledge of when it's writing data columns.
 ---
+Take an array with customer data, iterate over it and write to a keyed file
+1. Initialize key file and set to variable
+2. 10575, pass in the key file, establish the key field, and starting field one, starting at character 1, until the 22nd character. Also this line is saying, if this keyed file doesn't exist then make one.
+3. Create and open the file channel to the file we initialized
+4. Create a for loop to iterate over the array, set the variables, (with the key being the first field) then write to the file channel then close it.
+
+<img width="726" height="314" alt="image" src="https://github.com/user-attachments/assets/edf99bc2-4225-462a-a601-5bf49133d937" />
+
+---
+Memory File
+
+
+
+
+
 
 
 
