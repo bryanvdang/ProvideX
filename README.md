@@ -609,6 +609,21 @@ Take an array with customer data, iterate over it and write to a keyed file
 
 ---
 Memory File
+- Memory for your current session
+- Great way to manipulate data such as sorting, appending, etc. without having to recreate a file every time for manipulation. E.g. if we want to generate a report, we can grab data, append more data, display the report then at the end of the session everything is erased.
+- Chris tend to use them the way he would an array. It's a dynamic place where I can stick data.
+- Chris wouldn't say they're unlimited but they're based
+- To create a memory file
+	- Open a HFN. We can't do a lock on these because they're only to our session, so it's pointless to lock it.
+ 		- <img width="326" height="48" alt="image" src="https://github.com/user-attachments/assets/ef8af671-4070-4850-a00f-877663c0a849" />
+	- Memory files and ProvideX files have a key concept. Meaning it's dynamic on where you want to go look at stuff. Versus a text file, you have to start looking at where you're currently at or at the beginning.
+
+
+
+
+
+
+
 
 
 
