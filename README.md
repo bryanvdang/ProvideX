@@ -588,6 +588,20 @@ Indexed Files
 - Error 13 (internally keyed), it's because you most likely are messing up with the key equals, depending on the type of file.
 - ERR 13, (externally keyed) if you try to write to your keyed file, you'll get an error 13 because it didn't specify what key I wanted that to be, because it's externally keyed, it's a separate field, I have to specify. If it’s the same record, I can say the key is equal to the current key. Which is the KEC of my current file.
 
+---
+Keyed File
+
+- These work very similar to memory files but they are actual physical files on the server. There's a keyed command that builds those files.
+- $fi command helps us identify these files
+- The keyed command that was used to help create this is the KEYED line.
+
+You can actually set up a memory file to be based off of this type of keying structure. Chris never used before but some people like it. Chris prefers to just specify what his key is when he's writing to it but we don't have to.
+
+The advantage of the keyed system, instead of doing a key equals, you can just do a write and because of the way that the file was opened or how the memory file was created, it has that keyed function to it. It knows that the first field, 1 for 6 is the key of this file. So you don't have to specify the key. It embeds it into its knowledge of when it's writing data columns.
+---
+
+
+
 
 
 
