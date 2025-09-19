@@ -624,8 +624,23 @@ Memory File
 Command:
 KEC : Where is my current key pointer
 KEY: what is the next key coming up?
-	- in this example, 30 is the last key pointer in the file
-	-  <img width="465" height="317" alt="image" src="https://github.com/user-attachments/assets/845465c9-a2ff-4a09-8206-dc714fee5f8f" />
+- in this example, 30 is the last key pointer in the file
+- <img width="465" height="317" alt="image" src="https://github.com/user-attachments/assets/845465c9-a2ff-4a09-8206-dc714fee5f8f" />
+
+KEN and KEP: what is the next key pointer, what is the previous key pointer
+	- We don't normally use them. The next key pointer generally works better with the KEY command but you almost never see them in code so focus on KEC and KEY
+
+- How to set the key pointer to be at the beginning of the file, you do that by using $key="".
+	- When initializing it by itself it will error out because obviously there is no key with "", so you'll want to add the ERR=*next
+ 	- <img width="446" height="99" alt="image" src="https://github.com/user-attachments/assets/41534b16-2893-4db4-902c-bea9e00400a8" />
+		- It'll still going to report the errors because that's what provideX does but in code it's going to be fine.
+  	- If we do KEY and KEC on "", it will show the next pointer but if you do KEC, it'll throw an error since the key pointer is kind of in a limbo state where it's not specially on a key but you're KEY will pick up on the next one.
+  		- <img width="440" height="81" alt="image" src="https://github.com/user-attachments/assets/26e8fea7-8cbf-4ab6-a550-625650afc840" />
+
+
+
+
+
 
 
 
