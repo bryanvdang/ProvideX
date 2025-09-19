@@ -617,6 +617,19 @@ Memory File
 	- Open a HFN. We can't do a lock on these because they're only to our session, so it's pointless to lock it.
  		- <img width="326" height="48" alt="image" src="https://github.com/user-attachments/assets/ef8af671-4070-4850-a00f-877663c0a849" />
 	- Memory files and ProvideX files have a key concept. Meaning it's dynamic on where you want to go look at stuff. Versus a text file, you have to start looking at where you're currently at or at the beginning.
+ 	- We like to use memory files a lot when we're just generating data or gathering data together to go process because then we can go create a loop based off of our memory file, and it's all organized or sorted.
+  	- If you close the memory file, its gone forever. There's no more finding it, the data's gone, and item itself is gone. You can't open it back up, you have to rebuild the memory file.
+  		- <img width="297" height="67" alt="image" src="https://github.com/user-attachments/assets/828f79c6-850b-4f56-b24b-7cfdea49ad96" />
+
+Command:
+KEC : Where is my current key pointer
+KEY: what is the next key coming up?
+	- in this example, 30 is the last key pointer in the file
+	-  <img width="465" height="317" alt="image" src="https://github.com/user-attachments/assets/845465c9-a2ff-4a09-8206-dc714fee5f8f" />
+
+
+
+
 
 
 
