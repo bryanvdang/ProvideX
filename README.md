@@ -633,7 +633,7 @@ KEN and KEP: what is the next key pointer, what is the previous key pointer
 - How to set the key pointer to be at the beginning of the file, you do that by using $key="".
 	- When initializing it by itself it will error out because obviously there is no key with "", so you'll want to add the ERR=*next
  	- <img width="446" height="99" alt="image" src="https://github.com/user-attachments/assets/41534b16-2893-4db4-902c-bea9e00400a8" />
-		- It'll still going to report the errors because that's what provideX does but in code it's going to be fine.
+	- It'll still going to report the errors because that's what provideX does but in code it's going to be fine.
   	- If we do KEY and KEC on "", it will show the next pointer but if you do KEC, it'll throw an error since the key pointer is kind of in a limbo state where it's not specially on a key but you're KEY will pick up on the next one.
   		- <img width="440" height="81" alt="image" src="https://github.com/user-attachments/assets/26e8fea7-8cbf-4ab6-a550-625650afc840" />
 	- READ function is wherever my current key is, go read the next one and if you run the command again, it's going to increment to the next one.
