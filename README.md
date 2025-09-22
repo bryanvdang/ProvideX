@@ -636,6 +636,15 @@ KEN and KEP: what is the next key pointer, what is the previous key pointer
 		- It'll still going to report the errors because that's what provideX does but in code it's going to be fine.
   	- If we do KEY and KEC on "", it will show the next pointer but if you do KEC, it'll throw an error since the key pointer is kind of in a limbo state where it's not specially on a key but you're KEY will pick up on the next one.
   		- <img width="440" height="81" alt="image" src="https://github.com/user-attachments/assets/26e8fea7-8cbf-4ab6-a550-625650afc840" />
+	- READ function is wherever my current key is, go read the next one and if you run the command again, it's going to increment to the next one.
+ 		- <img width="321" height="156" alt="image" src="https://github.com/user-attachments/assets/78869734-5a45-4dfa-a238-04db51fa4303" />
+	- There's a FIND command that works the same as READ but we don't really ever use the find.
+ 	- Read record, not very common but the functionality is it'll read all the fields and bring into this one variable. So if we are at pointer 15 and have another field set to "something" it will combine those into the variable. It's not very helpful except for edge cases so usually READ will do
+  		- <img width="379" height="52" alt="image" src="https://github.com/user-attachments/assets/1c00c4cf-5c6e-4d62-a8dc-4fee51a6714a" />
+
+
+
+
 
 
 
