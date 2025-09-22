@@ -641,83 +641,28 @@ KEN and KEP: what is the next key pointer, what is the previous key pointer
 	- There's a FIND command that works the same as READ but we don't really ever use the find.
  	- Read record, not very common but the functionality is it'll read all the fields and bring into this one variable. So if we are at pointer 15 and have another field set to "something" it will combine those into the variable. It's not very helpful except for edge cases so usually READ will do
   		- <img width="379" height="52" alt="image" src="https://github.com/user-attachments/assets/1c00c4cf-5c6e-4d62-a8dc-4fee51a6714a" />
+---
+Key definition on a memory file:
+- We're opening up a memory file, we're going to define a key definition, so its going to be the first 20 characters of the first field, and then first to three characters on the second field.
+	- <img width="333" height="15" alt="image" src="https://github.com/user-attachments/assets/787eff55-f91f-461a-9eb6-674932370483" />
+- When you see that when it's writing to it, we're not specifying a key on it, we're accepting the first 2 fields for that key
+	-  <img width="527" height="15" alt="image" src="https://github.com/user-attachments/assets/b93e51c7-04b0-4cdc-baac-b550312b8fe9" />
 
+It's kind of personal preference, Chris generally doesn't use the key definition on his memory files. He likes to specify the key, therefore he's not forced to a specific length when he's dealing with the keys to it. 
 
+E.g. if you want to sort a memory file, you can set the first part of the key to be the email address and have it sort based off of that.
 
+---
+Grab contents from a JSON file
 
+<img width="275" height="62" alt="image" src="https://github.com/user-attachments/assets/23bfe9d2-6f9f-4a67-be40-22ab78201dc8" />
 
+<img width="190" height="79" alt="image" src="https://github.com/user-attachments/assets/90a6a4fa-e43b-428a-85c0-32cd38135911" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+---
+File Handling
 
  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -726,7 +671,12 @@ KEN and KEP: what is the next key pointer, what is the previous key pointer
 
 ---
 System Variables
+- For your session of files channels that are either used or what's my next file channel
+	- If we type $?HFN, its saying "here's the next channel number to use from the server."
+ 	- Basically what's happening is the backend is just opening up a pipeline to the file and its recorded by these file channel numbers to work with those.
+
  
+
 
 
 
