@@ -663,6 +663,11 @@ Grab contents from a JSON file
 File Handling
 - Always use our FH program when dealing with files, especially opening them.
 - Using the $FO command is a command line utility that is kind of saying, "hey I'm writing some pseudocode, or whatever, and I need to open up a file.
+	- Perform FH close to close a file. This will just close everything for the current stack that was opened through the file handler. It won't close any of your serial files but anything you use for the subroutine or any routine you created, that'll close those files.
+
+- When you're dealing with serial files or temporary training files that you might create, the FH command won't work with those because it's not really in the environment
+
+
 
 
  
