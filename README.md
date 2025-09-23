@@ -666,6 +666,11 @@ File Handling
 	- Perform FH close to close a file. This will just close everything for the current stack that was opened through the file handler. It won't close any of your serial files but anything you use for the subroutine or any routine you created, that'll close those files.
 
 - When you're dealing with serial files or temporary training files that you might create, the FH command won't work with those because it's not really in the environment
+- We also use the FH program to keep track of memory issues. So if you're improperly using file opens, such as you set up a file open inside of your loop, so every iteration of your loop, you're opening up the file again. You're going to cause memory issues and we have some logic inside of the FH program to help detect those issues. There is logic to turn that feature on or off because it does slow down the system.
+
+---
+Example: Take data from a keyed file, manipulate it via memory file then print on the screen
+
 
 
 
