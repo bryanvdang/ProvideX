@@ -661,6 +661,9 @@ Grab contents from a JSON file
 
 ---
 File Handling
+- Always use our FH program when dealing with files, especially opening them.
+- Using the $FO command is a command line utility that is kind of saying, "hey I'm writing some pseudocode, or whatever, and I need to open up a file.
+
 
  
 
