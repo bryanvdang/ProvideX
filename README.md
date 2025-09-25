@@ -670,10 +670,9 @@ File Handling
 
 ---
 Example: Take data from a keyed file, manipulate it via memory file then print on the screen
+<img width="430" height="92" alt="image" src="https://github.com/user-attachments/assets/0a27f016-e49f-499c-9244-17834b8101b3" />
 
-
-
-
+<img width="1267" height="646" alt="image" src="https://github.com/user-attachments/assets/5a216ef2-61cf-41db-afa6-eeb0aba6e768" />
 
 ---
 Alternate Keys:
@@ -681,7 +680,15 @@ Alternate Keys:
 In relation to keyed files 
 
 $fi -a file name 
-- Will list out all the key information. The main keys and the alternate keys.  
+- Will list out all the key information. The main keys and the alternate keys.
+- KNO 0 is the primary key
+- KNO 1 is the alternate key
+	- Alternate keys which are similar to an index in SQL. Another way to search through it.
+
+<img width="624" height="307" alt="image" src="https://github.com/user-attachments/assets/cbd4e202-4a81-4038-bf8c-3ddf52c33e26" />
+
+
+
 
 
 
