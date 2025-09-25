@@ -675,6 +675,16 @@ Example: Take data from a keyed file, manipulate it via memory file then print o
 
 
 
+---
+Alternate Keys:
+
+In relation to keyed files 
+
+$fi -a file name 
+- Will list out all the key information. The main keys and the alternate keys.  
+
+
+
  
 
 
