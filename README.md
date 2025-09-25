@@ -685,7 +685,9 @@ $fi -a file name
 - KNO 1 is the alternate key
 	- Alternate keys which are similar to an index in SQL. Another way to search through it.
 
-<img width="624" height="307" alt="image" src="https://github.com/user-attachments/assets/cbd4e202-4a81-4038-bf8c-3ddf52c33e26" />
+
+
+
 
 
 
