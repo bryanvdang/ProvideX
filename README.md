@@ -690,6 +690,12 @@ IO List:
 - Basically a hard-coded list of what my values are for each field. This is the undesired way to deal with files so we need to understand how these works but any new code should not work like this. Sometimes it's ok to deal with them because they can sometimes be a little more convenient for a situation.
 - This old way of doing it is putting it in a big list so when I need to add a variable I can add to this list instead of adding to every read and write that uses it.
 
+- The better way to deal with this is through an embedded IOL.  
+This has all the data from an embedded I/O list. So if the definition("file Name") of the file gets updated, to have another field at the bottom, anytime this file is opened, it's going to use the definition to create the embedded I/O list to be dynamic.
+
+Embedded IO List
+- With the embedded I/O list, when it opens up a file, it goes through the definition of that file and says, here's all the fields for that. Let's go open up the file. Here's the embedded I/O list for it and then it's dynamically created at that point and it's always going to be built out with this file name.field name with that from the FH command, which is one of the reasons why we are enforcing the FH command because it does this embedded I/O list stuff. That way, if there's ever a field added, you don't have to go updated 50 programs. For the new field, it will automatically be there. What happens is like an I.O list
+
 
 
 
