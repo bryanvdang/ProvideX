@@ -685,7 +685,10 @@ $fi -a file name
 - KNO 1 is the alternate key
 	- Alternate keys which are similar to an index in SQL. Another way to search through it.
 
-
+---
+IO List:
+- Basically a hard-coded list of what my values are for each field. This is the undesired way to deal with files so we need to understand how these works but any new code should not work like this. Sometimes it's ok to deal with them because they can sometimes be a little more convenient for a situation.
+- This old way of doing it is putting it in a big list so when I need to add a variable I can add to this list instead of adding to every read and write that uses it.
 
 
 
